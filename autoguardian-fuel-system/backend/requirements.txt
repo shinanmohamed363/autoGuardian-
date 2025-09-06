@@ -1,0 +1,34 @@
+# AutoGuardian Fuel Management System - Backend Dependencies 
+# Core Flask Framework
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.5
+Flask-CORS==4.0.0
+Flask-JWT-Extended==4.5.3
+# Database
+PyMySQL==1.1.0
+SQLAlchemy==2.0.23
+cryptography==41.0.7
+# Authentication & Security
+bcrypt==4.0.1
+passlib==1.7.4
+# ML & Data Processing
+pandas==2.1.4
+numpy==1.24.3
+scikit-learn==1.3.2
+joblib==1.3.2
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+# AI Integration
+google-generativeai==0.3.2 
+# Utilities
+python-dotenv==1.0.0
+marshmallow==3.20.1
+python-dateutil==2.8.2
+# Development & Testing
+pytest==7.4.3
+pytest-flask==1.3.0
+flask-testing==0.8.1
+# Production
+gunicorn==21.2.0

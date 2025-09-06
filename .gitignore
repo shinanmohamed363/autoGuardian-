@@ -1,0 +1,145 @@
+# AutoGuardian Full-Stack Project - GitIgnore
+
+# =======================
+# PYTHON / BACKEND FILES
+# =======================
+
+# Virtual Environment
+fuel_env/
+venv/
+env/
+.env
+.venv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Flask Instance
+instance/
+.webassets-cache
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit Test / Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Machine Learning Models (optional - include if models are large)
+# *.pkl
+# *.joblib
+# *.h5
+
+# =======================
+# REACT / FRONTEND FILES
+# =======================
+
+# Dependencies
+autoguardian-fuel-system/auto-gardian-frontend/node_modules/
+autoguardian-fuel-system/auto-gardian-frontend/.pnp
+autoguardian-fuel-system/auto-gardian-frontend/.pnp.js
+
+# Testing
+autoguardian-fuel-system/auto-gardian-frontend/coverage/
+
+# Production Build
+autoguardian-fuel-system/auto-gardian-frontend/build/
+
+# Misc
+autoguardian-fuel-system/auto-gardian-frontend/.DS_Store
+autoguardian-fuel-system/auto-gardian-frontend/.env
+autoguardian-fuel-system/auto-gardian-frontend/.env.local
+autoguardian-fuel-system/auto-gardian-frontend/.env.development.local
+autoguardian-fuel-system/auto-gardian-frontend/.env.test.local
+autoguardian-fuel-system/auto-gardian-frontend/.env.production.local
+
+# Logs
+autoguardian-fuel-system/auto-gardian-frontend/npm-debug.log*
+autoguardian-fuel-system/auto-gardian-frontend/yarn-debug.log*
+autoguardian-fuel-system/auto-gardian-frontend/yarn-error.log*
+
+# =======================
+# GENERAL FILES
+# =======================
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# Database Files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Sensitive Configuration
+config.py
+*.key
+*.pem
+
+# Documentation Build
+docs/_build/
+
+# =======================
+# PROJECT SPECIFIC
+# =======================
+
+# API Keys and Secrets (already covered in .env but extra safety)
+**/api_keys.py
+**/secrets.py
+**/credentials.json
+
+# Large Dataset Files (if any)
+*.csv
+*.xlsx
+*.json
+data/
+datasets/
+
+# Generated Reports
+reports/
+*.pdf
+screenshots/
+
+# Test Output Files
+test_*.py
+*_test_output.txt
